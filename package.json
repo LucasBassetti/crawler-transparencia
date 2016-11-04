@@ -1,0 +1,29 @@
+{
+  "name": "crawler-transparencia",
+  "version": "0.1.0",
+  "description": "Web crawler para coletar dados sobre despesa orçamentária do Portal da Transparência (http://transparencia.gov.br)",
+  "keywords": [
+    "Web crawler",
+    "transparência",
+    "despesa orçamentária"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/LucasBassetti/crawler-transparencia.git"
+  },
+  "bugs:": "https://github.com/LucasBassetti/crawler-transparencia/issues",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucas Bassetti (http://lucasbassetti.com.br/)",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "request": "^2.78.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-latest": "^6.16.0"
+  }
+}
